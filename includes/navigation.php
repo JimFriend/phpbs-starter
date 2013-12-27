@@ -29,7 +29,7 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" data-toggle="modal" data-target="#myModal">Login / Register</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#LoginModal">Login / Register</a></li>
           </ul>                
         </div><!--/.nav-collapse -->
       </div>
