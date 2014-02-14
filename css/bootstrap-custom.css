@@ -7,3 +7,19 @@ body {
 	width: 400px;
 }
 
+.errorBlock, .messageBlock {
+	padding:0;
+}
+.errorBlock li, .messageBlock li {
+	list-style-type: none;
+	color: #d44950;
+	padding: 8px 0 0 0;
+}
+
+.messageBlock li {
+	color: #4cae4c;
+}
+
+.errorBlock li span, .messageBlock li span {
+	margin-right: 8px;
+}
