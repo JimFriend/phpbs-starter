@@ -20,8 +20,8 @@ if( !empty( $_POST ) ) {
 		die();
 	}
 	
-	if( minMaxRange( 8, 50, $password ) && minMaxRange( 8, 50, $confirm_pass ) ) {
-		$errors[] = lang( "ACCOUNT_PASS_CHAR_LIMIT", array( 8, 50 ) );
+	if( minMaxRange( 5, 50, $password ) && minMaxRange( 5, 50, $confirm_pass ) ) {
+		$errors[] = lang( "ACCOUNT_PASS_CHAR_LIMIT", array( 5, 50 ) );
 		$_SESSION['errors'] = $errors;
 		header( "Location: " . SITE_DIR . "/account.php" );
 		die();
